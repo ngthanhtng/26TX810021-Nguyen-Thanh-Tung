@@ -17,6 +17,9 @@ public class Book {
     }
 
     public void printInfo(){
-        System.out.println("Ten sach: " + title + ", Tac gia: " + author + ", Gia: " + price + ", Co san: " + inStock);
+        System.out.println("Tên sách: " + title +
+                "\nTác giả: " + author +
+                "\nGiá: " + price +
+                "\nCó sẵn: " + inStock);
     }
 }

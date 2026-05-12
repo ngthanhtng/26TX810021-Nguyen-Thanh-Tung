@@ -8,20 +8,14 @@ public class Rectangle {
     }
 
     public double area() {
-        double area = (width * height);
-        return area;
+        return width * height;
     }
 
     public double perimeter() {
-        double perimeter = (2 * (width + height));
-        return perimeter;
+        return 2 * (width + height);
     }
 
     public boolean isSquare() {
-        if (width == height) {
-            return true;
-        } else {
-            return false;
-        }
+        return width == height;
     }
 }
